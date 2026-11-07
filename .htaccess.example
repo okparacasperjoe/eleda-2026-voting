@@ -1,0 +1,23 @@
+# ====================================================================
+# ELEDA 2026 - Apache / cPanel Shared Hosting Configuration
+# ====================================================================
+
+# OPTION 1: cPanel "Setup Node.js App" (CloudLinux Passenger)
+# When you create the app in cPanel -> "Setup Node.js App", cPanel
+# automatically inserts the Passenger configuration here:
+#
+# PassengerAppRoot "/home/YOUR_CPANEL_USER/eleda"
+# PassengerBaseURI "/"
+# PassengerNodejs "/home/YOUR_CPANEL_USER/nodevenv/eleda/20/bin/node"
+# PassengerAppType node
+# PassengerStartupFile server.js
+
+# OPTION 2: Apache Reverse Proxy to running Node.js process (Port 3000)
+# If your shared host allows running Node as a background daemon or via PM2:
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ http://127.0.0.1:3000/ [P,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,L]
+</IfModule>
