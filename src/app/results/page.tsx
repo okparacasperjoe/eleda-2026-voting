@@ -76,18 +76,18 @@ export default function ResultsPage() {
   const isScoresHidden = !results?.canViewCandidateScores && !results?.isAdminViewer;
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] py-10 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto space-y-8">
+    <div className="min-h-screen bg-[#F8FAFC] py-6 sm:py-10 px-3 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
         {/* Header Bar */}
-        <div className="bg-gradient-to-r from-[#0A1128] via-[#0B192C] to-[#1E3E62] rounded-3xl p-6 sm:p-10 text-white shadow-2xl relative overflow-hidden">
-          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div className="space-y-2">
+        <div className="bg-gradient-to-r from-[#0A1128] via-[#0B192C] to-[#1E3E62] rounded-2xl sm:rounded-3xl p-5 sm:p-10 text-white shadow-2xl relative overflow-hidden">
+          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-5 sm:gap-6">
+            <div className="space-y-1.5 sm:space-y-2">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-semibold text-[#F3C623]">
                 <BarChart3 className="w-3.5 h-3.5" />
                 <span>Live Election Statistics Arena</span>
               </div>
-              <h1 className="text-2xl sm:text-4xl font-black">
-                Election Results & Turnout
+              <h1 className="text-xl sm:text-4xl font-black">
+                Election Results &amp; Turnout
               </h1>
               <p className="text-xs text-slate-300">
                 Official tally reconciled from the cryptographic anonymous ballot box.
@@ -95,7 +95,7 @@ export default function ResultsPage() {
             </div>
 
             {/* Controls & Badges */}
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
               {results?.isAdminViewer && (
                 <span className="px-3 py-1 rounded-full text-xs font-bold bg-[#D4AF37] text-[#0A1128] shadow-md flex items-center gap-1.5">
                   <Eye className="w-3.5 h-3.5" />
@@ -106,7 +106,7 @@ export default function ResultsPage() {
               <button
                 onClick={fetchResults}
                 disabled={refreshing}
-                className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-bold text-white border border-white/20 transition-colors flex items-center gap-2"
+                className="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-bold text-white border border-white/20 transition-colors flex items-center gap-1.5"
               >
                 <RefreshCw className={`w-3.5 h-3.5 ${refreshing ? 'animate-spin' : ''}`} />
                 <span>Sync</span>
@@ -114,7 +114,7 @@ export default function ResultsPage() {
 
               <button
                 onClick={() => setAutoRefresh(!autoRefresh)}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold border transition-colors ${
+                className={`px-3 py-2 rounded-xl text-xs font-bold border transition-colors ${
                   autoRefresh
                     ? 'bg-emerald-950/60 text-emerald-300 border-emerald-500/50'
                     : 'bg-slate-800 text-slate-300 border-slate-600'
@@ -128,7 +128,7 @@ export default function ResultsPage() {
 
         {/* Visibility Notice if candidate scores are hidden during voting */}
         {isScoresHidden && (
-          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 text-amber-900 flex items-start gap-3 shadow-sm">
+          <div className="bg-amber-50 border border-amber-200 rounded-xl sm:rounded-2xl p-4 sm:p-5 text-amber-900 flex items-start gap-3 shadow-sm">
             <EyeOff className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div>
               <h4 className="font-bold text-sm">Candidate Vote Counts Kept Secret During Voting</h4>
@@ -140,51 +140,51 @@ export default function ResultsPage() {
         )}
 
         {/* Turnout Overview Metrics */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="bg-white p-5 rounded-2xl shadow-xl border border-slate-200">
-            <div className="flex items-center justify-between text-slate-400 mb-2">
-              <span className="text-xs uppercase tracking-wider font-bold">Registered</span>
-              <Users className="w-5 h-5 text-blue-500" />
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
+          <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl shadow-md border border-slate-200 min-w-0">
+            <div className="flex items-center justify-between text-slate-400 mb-1.5 sm:mb-2">
+              <span className="text-[10px] sm:text-xs uppercase tracking-wider font-bold">Registered</span>
+              <Users className="w-4 h-4 sm:w-5 sm:h-5 text-blue-500 shrink-0" />
             </div>
-            <p className="text-3xl font-black text-[#0B192C]">
+            <p className="text-2xl sm:text-3xl font-black text-[#0B192C]">
               {results?.totalRegisteredVoters || 0}
             </p>
-            <p className="text-[11px] text-slate-500 mt-1">Total registered participants</p>
+            <p className="text-[10px] sm:text-[11px] text-slate-500 mt-1 truncate">Registered delegates</p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl shadow-xl border border-slate-200">
-            <div className="flex items-center justify-between text-slate-400 mb-2">
-              <span className="text-xs uppercase tracking-wider font-bold">Verified</span>
-              <CheckCircle2 className="w-5 h-5 text-emerald-500" />
+          <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl shadow-md border border-slate-200 min-w-0">
+            <div className="flex items-center justify-between text-slate-400 mb-1.5 sm:mb-2">
+              <span className="text-[10px] sm:text-xs uppercase tracking-wider font-bold">Verified</span>
+              <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-500 shrink-0" />
             </div>
-            <p className="text-3xl font-black text-[#0B192C]">
+            <p className="text-2xl sm:text-3xl font-black text-[#0B192C]">
               {results?.totalVerifiedVoters || 0}
             </p>
-            <p className="text-[11px] text-slate-500 mt-1">Accredited eligible delegates</p>
+            <p className="text-[10px] sm:text-[11px] text-slate-500 mt-1 truncate">Accredited voters</p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl shadow-xl border border-slate-200">
-            <div className="flex items-center justify-between text-slate-400 mb-2">
-              <span className="text-xs uppercase tracking-wider font-bold">Ballots Cast</span>
-              <Vote className="w-5 h-5 text-[#D4AF37]" />
+          <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl shadow-md border border-slate-200 min-w-0">
+            <div className="flex items-center justify-between text-slate-400 mb-1.5 sm:mb-2">
+              <span className="text-[10px] sm:text-xs uppercase tracking-wider font-bold">Ballots Cast</span>
+              <Vote className="w-4 h-4 sm:w-5 sm:h-5 text-[#D4AF37] shrink-0" />
             </div>
-            <p className="text-3xl font-black text-[#0B192C]">
+            <p className="text-2xl sm:text-3xl font-black text-[#0B192C]">
               {results?.totalBallotsCast || 0}
             </p>
-            <p className="text-[11px] text-slate-500 mt-1">Anonymous ballots in ledger</p>
+            <p className="text-[10px] sm:text-[11px] text-slate-500 mt-1 truncate">Anonymous ballots</p>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl shadow-xl border border-slate-200">
-            <div className="flex items-center justify-between text-slate-400 mb-2">
-              <span className="text-xs uppercase tracking-wider font-bold">Turnout</span>
-              <TrendingUp className="w-5 h-5 text-purple-500" />
+          <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl shadow-md border border-slate-200 min-w-0">
+            <div className="flex items-center justify-between text-slate-400 mb-1.5 sm:mb-2">
+              <span className="text-[10px] sm:text-xs uppercase tracking-wider font-bold">Turnout</span>
+              <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 text-purple-500 shrink-0" />
             </div>
-            <p className="text-3xl font-black text-[#0B192C]">
+            <p className="text-2xl sm:text-3xl font-black text-[#0B192C]">
               {results?.turnoutPercentage || 0}%
             </p>
-            <div className="w-full bg-slate-100 rounded-full h-2 mt-2 overflow-hidden">
+            <div className="w-full bg-slate-100 rounded-full h-1.5 sm:h-2 mt-2 overflow-hidden">
               <div
-                className="bg-gradient-to-r from-[#D4AF37] to-[#F3C623] h-2 rounded-full transition-all duration-500"
+                className="bg-gradient-to-r from-[#D4AF37] to-[#F3C623] h-1.5 sm:h-2 rounded-full transition-all duration-500"
                 style={{ width: `${Math.min(100, results?.turnoutPercentage || 0)}%` }}
               ></div>
             </div>
@@ -192,10 +192,10 @@ export default function ResultsPage() {
         </div>
 
         {/* Position-by-Position Detailed Results */}
-        <div className="space-y-10">
-          <div className="flex items-center justify-between">
+        <div className="space-y-6 sm:space-y-10">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
-              <h2 className="text-2xl font-black text-[#0B192C]">Position-by-Position Tallies</h2>
+              <h2 className="text-xl sm:text-2xl font-black text-[#0B192C]">Position-by-Position Tallies</h2>
               <p className="text-xs text-slate-500 mt-0.5">
                 Breakdown of delegate votes by contested executive office.
               </p>
@@ -203,7 +203,7 @@ export default function ResultsPage() {
             {(results?.status === 'RESULTS_PUBLISHED' || results?.status === 'VOTING_CLOSED') && (
               <Link
                 href="/winners"
-                className="px-4 py-2 rounded-xl text-xs font-bold bg-[#0A1128] text-white hover:bg-[#1E3E62] transition-colors flex items-center gap-1.5 shadow-md"
+                className="px-4 py-2 rounded-xl text-xs font-bold bg-[#0A1128] text-white hover:bg-[#1E3E62] transition-colors flex items-center gap-1.5 shadow-md self-start sm:self-auto"
               >
                 <Trophy className="w-4 h-4 text-[#F3C623]" />
                 View Winner Announcements
@@ -211,7 +211,7 @@ export default function ResultsPage() {
             )}
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             {results?.positions.map(pos => {
               // Prepare data for Recharts
               const chartData = pos.candidates.map(c => ({
@@ -224,11 +224,11 @@ export default function ResultsPage() {
               return (
                 <div
                   key={pos.positionId}
-                  className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200 space-y-6"
+                  className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-xl border border-slate-200 space-y-5 sm:space-y-6"
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-100 gap-2">
                     <div>
-                      <h3 className="text-xl font-black text-[#0B192C]">{pos.positionTitle}</h3>
+                      <h3 className="text-lg sm:text-xl font-black text-[#0B192C]">{pos.positionTitle}</h3>
                       <p className="text-xs text-slate-500 mt-0.5">
                         Total Votes Cast for Office: <strong>{pos.totalVotesCast}</strong>
                         {pos.totalAbstentions > 0 && ` • Abstentions: ${pos.totalAbstentions}`}
@@ -236,7 +236,7 @@ export default function ResultsPage() {
                     </div>
 
                     {pos.isTie && (
-                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-300 self-start sm:self-auto">
                         TIE DETECTED
                       </span>
                     )}
@@ -251,13 +251,13 @@ export default function ResultsPage() {
 
                   {/* If scores are visible: Show Chart and Progress Bars */}
                   {!isScoresHidden ? (
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-center">
                       {/* Left: Recharts Bar Chart */}
-                      <div className="h-64 w-full bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                      <div className="h-60 sm:h-64 w-full bg-slate-50 p-2 sm:p-4 rounded-xl sm:rounded-2xl border border-slate-100">
                         <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 20 }}>
-                            <XAxis dataKey="name" tick={{ fontSize: 11 }} interval={0} angle={-15} textAnchor="end" />
-                            <YAxis allowDecimals={false} tick={{ fontSize: 11 }} />
+                          <BarChart data={chartData} margin={{ top: 10, right: 10, left: -25, bottom: 25 }}>
+                            <XAxis dataKey="name" tick={{ fontSize: 10 }} interval={0} angle={-20} textAnchor="end" />
+                            <YAxis allowDecimals={false} tick={{ fontSize: 10 }} />
                             <Tooltip
                               formatter={(value: any) => [`${value} votes`, 'Total']}
                               contentStyle={{ backgroundColor: '#0A1128', color: '#fff', borderRadius: '8px', fontSize: '12px' }}

@@ -147,12 +147,12 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[#1E3E62]/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+        <div className="pt-8 border-t border-[#1E3E62]/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-center sm:text-left">
           <p>© 2026 ELEDA Independent Electoral Committee. All rights reserved.</p>
-          <div className="flex items-center gap-6 text-slate-400">
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2 sm:gap-6 text-slate-400">
             <span>Election Privacy Standard ISO/IEC 27001 compliant</span>
-            <span>•</span>
-            <Link href="/admin" className="text-slate-400 hover:text-[#F3C623] transition-colors">
+            <span className="hidden sm:inline">•</span>
+            <Link href="/admin" className="text-slate-400 hover:text-[#F3C623] transition-colors font-medium">
               Electoral Officer Access
             </Link>
           </div>

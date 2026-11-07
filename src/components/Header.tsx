@@ -128,23 +128,25 @@ export default function Header() {
       )}
 
       <header className="sticky top-0 z-50 bg-[#0A1128] text-white border-b border-[#1E3E62] shadow-xl backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
           
           {/* Logo & Platform Name */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#D4AF37] via-[#F3C623] to-[#B8860B] p-0.5 shadow-lg group-hover:scale-105 transition-transform duration-200 shrink-0">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group shrink-0">
+            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#D4AF37] via-[#F3C623] to-[#B8860B] p-0.5 shadow-lg group-hover:scale-105 transition-transform duration-200 shrink-0">
               <div className="w-full h-full bg-[#0A1128] rounded-[10px] flex items-center justify-center">
-                <Vote className="w-6 h-6 text-[#F3C623]" />
+                <Vote className="w-5 h-5 sm:w-6 sm:h-6 text-[#F3C623]" />
               </div>
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-lg sm:text-xl font-black tracking-wider text-white">
+                <span className="text-base sm:text-xl font-black tracking-wider text-white">
                   ELEDA <span className="gold-gradient-text">2026</span>
                 </span>
-                {getStatusBadge()}
+                <div className="hidden sm:inline-flex">
+                  {getStatusBadge()}
+                </div>
               </div>
-              <p className="text-[9px] uppercase tracking-widest text-slate-400 font-medium">
+              <p className="hidden xs:block text-[8px] sm:text-[9px] uppercase tracking-widest text-slate-400 font-medium">
                 DIGITAL VOTING ARENA
               </p>
             </div>
@@ -244,20 +246,36 @@ export default function Header() {
             )}
           </div>
 
-          {/* Mobile Hamburger Toggle Button */}
-          <div className="flex items-center gap-2 lg:hidden">
+          {/* Mobile Actions & Hamburger Toggle Button */}
+          <div className="flex items-center gap-1.5 sm:gap-2 lg:hidden">
+            {/* Mobile compact status pill */}
+            <div className="sm:hidden">
+              {electionStatus === 'VOTING_LIVE' && !isEmergencyPaused ? (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-950/80 text-emerald-300 border border-emerald-500/40">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                  LIVE
+                </span>
+              ) : isEmergencyPaused ? (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9px] font-bold bg-red-900/60 text-red-200 border border-red-500/40">
+                  PAUSED
+                </span>
+              ) : null}
+            </div>
+
             <Link
               href="/#voting-booth"
-              className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-[#D4AF37] to-[#F3C623] text-[#0A1128] sm:hidden"
+              className="px-2.5 py-1.5 rounded-lg text-xs font-black bg-gradient-to-r from-[#D4AF37] to-[#F3C623] text-[#0A1128] shadow-sm flex items-center gap-1"
             >
-              Vote
+              <Vote className="w-3.5 h-3.5" />
+              <span>Vote</span>
             </Link>
+
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
+              className="p-1.5 sm:p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors focus:outline-none"
               aria-label="Toggle navigation menu"
             >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? <X className="w-6 h-6 text-[#F3C623]" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
 
