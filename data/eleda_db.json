@@ -1,0 +1,1275 @@
+{
+  "election": {
+    "id": "e1eda202-6000-4000-8000-000000000001",
+    "title": "ELEDA 2026 DIGITAL VOTING ARENA",
+    "tagline": "ONE PARTICIPANT. ONE VOTE. ONE VOICE.",
+    "description": "Official General Election for the ELEDA 2026 Leadership & Executive Council. Featuring verifiable cryptographic anonymous voting for registered delegates.",
+    "status": "VOTING_LIVE",
+    "startTime": "2026-11-07T06:24:06.767Z",
+    "endTime": "2026-11-09T06:24:06.768Z",
+    "timezone": "Africa/Lagos (GMT+1)",
+    "allowAbstentions": true,
+    "resultsVisibility": "TURNOUT_ONLY",
+    "isEmergencyPaused": false,
+    "emergencyPauseReason": null,
+    "createdAt": "2026-11-05T12:24:06.768Z",
+    "updatedAt": "2026-11-07T12:24:06.768Z"
+  },
+  "positions": [
+    {
+      "id": "pos-01-gov",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "title": "Class Governor",
+      "description": "Chief Executive Officer presiding over class governance, strategic initiatives, delegate advocacy, and student cohort leadership.",
+      "orderIndex": 1,
+      "allowAbstain": true,
+      "maxSelections": 1,
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "pos-02-dep-gov",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "title": "Deputy Governor",
+      "description": "Deputizing and acting for the leader, supporting strategic and political leadership, and managing communication and stakeholder relations.",
+      "orderIndex": 2,
+      "allowAbstain": true,
+      "maxSelections": 1,
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand-gov-01",
+      "positionId": "pos-01-gov",
+      "candidateNumber": "01",
+      "fullName": "Outstanding Oyindamola (Iremide Fabrics)",
+      "photoUrl": "/candidates/oyindamola.jpg",
+      "campaignTagline": "Leadership, Excellence, Innovation, Service & Impact — Ready to Serve",
+      "campaignDescription": "ELEDA 2.0 Graduate & Entrepreneur (Iremide Fabrics) committed to dedicated service, excellence, innovative solutions, and positive impact for all participants.",
+      "manifesto": "1. Leadership & Service: Dedicated representation listening and acting on participant needs.\n2. Innovation & Impact: Pioneering forward-thinking initiatives that uplift every member.\n3. Community Excellence: Fostering a supportive, collaborative environment across the ELEDA network.\n4. Practical Empowerment: Providing actionable growth opportunities for emerging leaders.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-gov-02",
+      "positionId": "pos-01-gov",
+      "candidateNumber": "02",
+      "fullName": "JCIN Amb. Izuumia Barilera Faith PhD",
+      "photoUrl": "/candidates/izuumia-barilera-faith.jpg",
+      "campaignTagline": "People • Progress • Prosperity — Building a Greater Eleda Together",
+      "campaignDescription": "JCIN Ambassador with doctorate-level academic and leadership expertise, championing inclusive governance, economic growth, and digital transformation.",
+      "manifesto": "1. Inclusive Governance: Ensuring transparent decision-making with every voice represented.\n2. Economic Growth: Unlocking entrepreneurial resources, partnerships, and market access.\n3. Digital Transformation: Modernizing communication and operations for efficiency.\n4. Better Lives: Prioritizing participant welfare, mentorship, and lasting prosperity.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-gov-03",
+      "positionId": "pos-01-gov",
+      "candidateNumber": "03",
+      "fullName": "Olansile Olanrewaju",
+      "photoUrl": "/candidates/olansile-olanrewaju.jpg",
+      "campaignTagline": "Support & Vote Olansile Olanrewaju as Governor",
+      "campaignDescription": "Dynamic leader committed to responsive governance, participant solidarity, and actionable development programs.",
+      "manifesto": "1. Transparent Advocacy: Open dialogue and rapid response to participant concerns.\n2. Grassroots Unity: Bridging cohorts to foster strong community synergy.\n3. Practical Empowerment: Direct support for participant projects and career advancement.\n4. Dedicated Representation: Consistent support for delegate initiatives.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-gov-04",
+      "positionId": "pos-01-gov",
+      "candidateNumber": "04",
+      "fullName": "Usman Aishat Omotomiwa (Adorable Aishah)",
+      "photoUrl": "/candidates/aishat-omotomiwa.jpg",
+      "campaignTagline": "Leadership Through Empowerment, Engagement and Growth — Empower • Engage • Grow",
+      "campaignDescription": "Passionate leader advocating \"One Class. One Voice. One Community. Growing Together.\" through participatory leadership and holistic development.",
+      "manifesto": "1. Empower: Skill-building workshops, leadership incubators, and resource sharing.\n2. Engage: Active town halls, feedback channels, and community check-ins.\n3. Grow: Sustainable peer networks, mentorship pairings, and collective milestones.\n4. One Voice: Ensuring collective representation for all cohort delegates.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-gov-05",
+      "positionId": "pos-01-gov",
+      "candidateNumber": "05",
+      "fullName": "JCIN Amb. Charles Ebo",
+      "photoUrl": "/candidates/charles-ebo.jpg",
+      "campaignTagline": "Engage. Innovate. Inspire.",
+      "campaignDescription": "JCIN Ambassador and visionary strategist dedicated to driving high-impact innovation, member engagement, and inspirational leadership.",
+      "manifesto": "1. Engage: Interactive leadership frameworks and active member participation.\n2. Innovate: Creative problem solving and modern digital integration.\n3. Inspire: Motivating excellence and building an enduring legacy for ELEDA 2026.\n4. Collaborative Vision: Connecting cohorts to real-world opportunities.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-dep-01",
+      "positionId": "pos-02-dep-gov",
+      "candidateNumber": "01",
+      "fullName": "Hadiza Oladipupo",
+      "photoUrl": "/candidates/hadiza-oladipupo.jpg",
+      "campaignTagline": "Together, for a Greater ELEDA",
+      "campaignDescription": "Candidate for Deputy Governor dedicated to deputizing and acting for the leader, supporting strategic leadership, and managing stakeholder relations.",
+      "manifesto": "1. Deputizing & Acting for the Leader: Providing seamless executive continuity and dependable operational governance.\n2. Strategic & Political Leadership: Aligning cohort goals with actionable leadership and policy execution.\n3. Communication & Stakeholder Relations: Bridging participants, administration, and partners for a unified ELEDA community.\n4. Participant Welfare: Dedicated support for every delegate.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    },
+    {
+      "id": "cand-dep-02",
+      "positionId": "pos-02-dep-gov",
+      "candidateNumber": "02",
+      "fullName": "Tina Paul",
+      "photoUrl": "/candidates/tina-paul.jpg",
+      "campaignTagline": "People • Progress • Prosperity — Building a Greater Eleda Together",
+      "campaignDescription": "Candidate for Deputy Governor committed to inclusive leadership, economic growth, digital innovation, and better lives for all delegates.",
+      "manifesto": "1. Inclusive Leadership: Fostering an environment where every cohort voice is valued and heard.\n2. Economic Growth: Promoting enterprise development, networking, and commercial opportunities.\n3. Digital Innovation: Integrating modern digital tools to enhance delegate experience and connectivity.\n4. Better Lives: Ensuring active support, community well-being, and mutual advancement.",
+      "approvalStatus": "APPROVED",
+      "createdAt": "2026-11-07T12:24:06.768Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin-01",
+      "fullName": "Chief Electoral Commissioner (Admin)",
+      "email": "admin@eleda2026.org",
+      "phone": "+234 800 123 4567",
+      "voterCode": "ELEDA-ADMIN-001",
+      "role": "ADMIN",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-08T12:24:06.769Z",
+      "verifiedAt": "2026-10-08T12:24:06.769Z",
+      "passwordHash": "0ff9cbfed51fab7f379c326a01b294c01e41288f379cbd870bc432232cacde5c"
+    },
+    {
+      "id": "user-voter-01",
+      "fullName": "Adebayo Samuel Adeleke",
+      "email": "voter1@eleda2026.org",
+      "phone": "+234 802 111 2233",
+      "voterCode": "ELEDA-2026-9041",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-28T12:24:06.769Z",
+      "verifiedAt": "2026-10-29T12:24:06.769Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-02",
+      "fullName": "Ngozi Beatrice Okoye",
+      "email": "voter2@eleda2026.org",
+      "phone": "+234 803 222 3344",
+      "voterCode": "ELEDA-2026-8812",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-26T12:24:06.769Z",
+      "verifiedAt": "2026-10-27T12:24:06.769Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-03",
+      "fullName": "Ibrahim Danladi Sani",
+      "email": "voter3@eleda2026.org",
+      "phone": "+234 804 333 4455",
+      "voterCode": "ELEDA-2026-7734",
+      "role": "VOTER",
+      "approvalStatus": "PENDING",
+      "registeredAt": "2026-11-06T12:24:06.769Z",
+      "verifiedAt": null,
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-04",
+      "fullName": "Chukwuma Kingsley Obi",
+      "email": "voter4@eleda2026.org",
+      "phone": "+234 805 444 5566",
+      "voterCode": "ELEDA-2026-6621",
+      "role": "VOTER",
+      "approvalStatus": "REJECTED",
+      "registeredAt": "2026-11-05T12:24:06.769Z",
+      "verifiedAt": null,
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-05",
+      "fullName": "Amara Chioma Eze",
+      "email": "delegate05@eleda2026.org",
+      "phone": "+234 8060000000",
+      "voterCode": "ELEDA-2026-5000",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-23T12:24:06.770Z",
+      "verifiedAt": "2026-10-24T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-06",
+      "fullName": "Babatunde Folarin",
+      "email": "delegate06@eleda2026.org",
+      "phone": "+234 8060000777",
+      "voterCode": "ELEDA-2026-5047",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-22T12:24:06.770Z",
+      "verifiedAt": "2026-10-23T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-07",
+      "fullName": "Amina Yusuf Garba",
+      "email": "delegate07@eleda2026.org",
+      "phone": "+234 8060001554",
+      "voterCode": "ELEDA-2026-5094",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-21T12:24:06.770Z",
+      "verifiedAt": "2026-10-22T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-08",
+      "fullName": "Emeka Stanley Ugo",
+      "email": "delegate08@eleda2026.org",
+      "phone": "+234 8060002331",
+      "voterCode": "ELEDA-2026-5141",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-20T12:24:06.770Z",
+      "verifiedAt": "2026-10-21T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-09",
+      "fullName": "Folashade Olamide",
+      "email": "delegate09@eleda2026.org",
+      "phone": "+234 8060003108",
+      "voterCode": "ELEDA-2026-5188",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-19T12:24:06.770Z",
+      "verifiedAt": "2026-10-20T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-10",
+      "fullName": "Kareem Abdulrahman",
+      "email": "delegate10@eleda2026.org",
+      "phone": "+234 8060003885",
+      "voterCode": "ELEDA-2026-5235",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-18T12:24:06.770Z",
+      "verifiedAt": "2026-10-19T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-11",
+      "fullName": "Blessing Chinwe Nwosu",
+      "email": "delegate11@eleda2026.org",
+      "phone": "+234 8060004662",
+      "voterCode": "ELEDA-2026-5282",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-17T12:24:06.770Z",
+      "verifiedAt": "2026-10-18T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-12",
+      "fullName": "Oluwaseun Balogun",
+      "email": "delegate12@eleda2026.org",
+      "phone": "+234 8060005439",
+      "voterCode": "ELEDA-2026-5329",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-16T12:24:06.770Z",
+      "verifiedAt": "2026-10-17T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-13",
+      "fullName": "Hauwa Mohammed Bello",
+      "email": "delegate13@eleda2026.org",
+      "phone": "+234 8060006216",
+      "voterCode": "ELEDA-2026-5376",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-15T12:24:06.770Z",
+      "verifiedAt": "2026-10-16T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-14",
+      "fullName": "Tunde Ayodele Peters",
+      "email": "delegate14@eleda2026.org",
+      "phone": "+234 8060006993",
+      "voterCode": "ELEDA-2026-5423",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-14T12:24:06.770Z",
+      "verifiedAt": "2026-10-15T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-15",
+      "fullName": "Joy Eberechukwu",
+      "email": "delegate15@eleda2026.org",
+      "phone": "+234 8060007770",
+      "voterCode": "ELEDA-2026-5470",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-13T12:24:06.770Z",
+      "verifiedAt": "2026-10-14T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-16",
+      "fullName": "Musa Kabir Aliyu",
+      "email": "delegate16@eleda2026.org",
+      "phone": "+234 8060008547",
+      "voterCode": "ELEDA-2026-5517",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-12T12:24:06.770Z",
+      "verifiedAt": "2026-10-13T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-17",
+      "fullName": "Funmilayo Adesina",
+      "email": "delegate17@eleda2026.org",
+      "phone": "+234 8060009324",
+      "voterCode": "ELEDA-2026-5564",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-11T12:24:06.770Z",
+      "verifiedAt": "2026-10-12T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-18",
+      "fullName": "Chinedu Bright Ibe",
+      "email": "delegate18@eleda2026.org",
+      "phone": "+234 8060010101",
+      "voterCode": "ELEDA-2026-5611",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-10T12:24:06.770Z",
+      "verifiedAt": "2026-10-11T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-19",
+      "fullName": "Zainab Kabir Sani",
+      "email": "delegate19@eleda2026.org",
+      "phone": "+234 8060010878",
+      "voterCode": "ELEDA-2026-5658",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-09T12:24:06.770Z",
+      "verifiedAt": "2026-10-10T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-20",
+      "fullName": "Victor Ebuka Onu",
+      "email": "delegate20@eleda2026.org",
+      "phone": "+234 8060011655",
+      "voterCode": "ELEDA-2026-5705",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-08T12:24:06.770Z",
+      "verifiedAt": "2026-10-09T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-21",
+      "fullName": "Ronke Victoria Awolowo",
+      "email": "delegate21@eleda2026.org",
+      "phone": "+234 8060012432",
+      "voterCode": "ELEDA-2026-5752",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-07T12:24:06.770Z",
+      "verifiedAt": "2026-10-08T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-22",
+      "fullName": "Mustapha Sadiq Gombe",
+      "email": "delegate22@eleda2026.org",
+      "phone": "+234 8060013209",
+      "voterCode": "ELEDA-2026-5799",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-06T12:24:06.770Z",
+      "verifiedAt": "2026-10-07T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-23",
+      "fullName": "Khadijah Abdullahi",
+      "email": "delegate23@eleda2026.org",
+      "phone": "+234 8060013986",
+      "voterCode": "ELEDA-2026-5846",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-05T12:24:06.770Z",
+      "verifiedAt": "2026-10-06T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-24",
+      "fullName": "Godwin Osagie",
+      "email": "delegate24@eleda2026.org",
+      "phone": "+234 8060014763",
+      "voterCode": "ELEDA-2026-5893",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-04T12:24:06.770Z",
+      "verifiedAt": "2026-10-05T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-25",
+      "fullName": "Halima Datti Ahmed",
+      "email": "delegate25@eleda2026.org",
+      "phone": "+234 8060015540",
+      "voterCode": "ELEDA-2026-5940",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-03T12:24:06.770Z",
+      "verifiedAt": "2026-10-04T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-26",
+      "fullName": "Kayode Emmanuel",
+      "email": "delegate26@eleda2026.org",
+      "phone": "+234 8060016317",
+      "voterCode": "ELEDA-2026-5987",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-02T12:24:06.770Z",
+      "verifiedAt": "2026-10-03T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-27",
+      "fullName": "Precious Ezinne",
+      "email": "delegate27@eleda2026.org",
+      "phone": "+234 8060017094",
+      "voterCode": "ELEDA-2026-6034",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-10-01T12:24:06.770Z",
+      "verifiedAt": "2026-10-02T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-28",
+      "fullName": "Suleiman Farouk",
+      "email": "delegate28@eleda2026.org",
+      "phone": "+234 8060017871",
+      "voterCode": "ELEDA-2026-6081",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-09-30T12:24:06.770Z",
+      "verifiedAt": "2026-10-01T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    },
+    {
+      "id": "user-voter-29",
+      "fullName": "Titi Oluwatoyin",
+      "email": "delegate29@eleda2026.org",
+      "phone": "+234 8060018648",
+      "voterCode": "ELEDA-2026-6128",
+      "role": "VOTER",
+      "approvalStatus": "APPROVED",
+      "registeredAt": "2026-09-29T12:24:06.770Z",
+      "verifiedAt": "2026-09-30T12:24:06.770Z",
+      "passwordHash": "fe4ef52dd63c0f12366601547de6d3873c28a90be9fbeb596e77ccf663ea2a85"
+    }
+  ],
+  "votingStatus": [
+    {
+      "id": "eligibility-user-admin-01",
+      "voterId": "user-admin-01",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-01",
+      "voterId": "user-voter-01",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-02",
+      "voterId": "user-voter-02",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T10:06:35.278Z",
+      "receiptCode": "ELEDA-VOTE-P4OS-EK1T"
+    },
+    {
+      "id": "eligibility-user-voter-03",
+      "voterId": "user-voter-03",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": false,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-04",
+      "voterId": "user-voter-04",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": false,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-05",
+      "voterId": "user-voter-05",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T08:24:50.234Z",
+      "receiptCode": "ELEDA-VOTE-FQ5V-GD7S"
+    },
+    {
+      "id": "eligibility-user-voter-06",
+      "voterId": "user-voter-06",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T08:57:32.558Z",
+      "receiptCode": "ELEDA-VOTE-RXG2-5BVI"
+    },
+    {
+      "id": "eligibility-user-voter-07",
+      "voterId": "user-voter-07",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T11:44:59.879Z",
+      "receiptCode": "ELEDA-VOTE-TDDJ-15VD"
+    },
+    {
+      "id": "eligibility-user-voter-08",
+      "voterId": "user-voter-08",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T11:52:33.893Z",
+      "receiptCode": "ELEDA-VOTE-38JM-A7KX"
+    },
+    {
+      "id": "eligibility-user-voter-09",
+      "voterId": "user-voter-09",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T10:50:44.460Z",
+      "receiptCode": "ELEDA-VOTE-U5GO-TUBH"
+    },
+    {
+      "id": "eligibility-user-voter-10",
+      "voterId": "user-voter-10",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T07:43:42.570Z",
+      "receiptCode": "ELEDA-VOTE-OAM5-8FS9"
+    },
+    {
+      "id": "eligibility-user-voter-11",
+      "voterId": "user-voter-11",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T08:33:04.832Z",
+      "receiptCode": "ELEDA-VOTE-E9CN-I89A"
+    },
+    {
+      "id": "eligibility-user-voter-12",
+      "voterId": "user-voter-12",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T09:10:44.117Z",
+      "receiptCode": "ELEDA-VOTE-VH6M-OH3F"
+    },
+    {
+      "id": "eligibility-user-voter-13",
+      "voterId": "user-voter-13",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T10:30:03.127Z",
+      "receiptCode": "ELEDA-VOTE-JNZJ-95LA"
+    },
+    {
+      "id": "eligibility-user-voter-14",
+      "voterId": "user-voter-14",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T09:05:55.923Z",
+      "receiptCode": "ELEDA-VOTE-DZI6-PLOP"
+    },
+    {
+      "id": "eligibility-user-voter-15",
+      "voterId": "user-voter-15",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T08:23:05.454Z",
+      "receiptCode": "ELEDA-VOTE-YMSD-1T51"
+    },
+    {
+      "id": "eligibility-user-voter-16",
+      "voterId": "user-voter-16",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T12:21:25.660Z",
+      "receiptCode": "ELEDA-VOTE-0TEX-0DG8"
+    },
+    {
+      "id": "eligibility-user-voter-17",
+      "voterId": "user-voter-17",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T10:38:07.224Z",
+      "receiptCode": "ELEDA-VOTE-OWG3-9JQE"
+    },
+    {
+      "id": "eligibility-user-voter-18",
+      "voterId": "user-voter-18",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": true,
+      "hasVoted": true,
+      "votedAt": "2026-11-07T09:39:46.499Z",
+      "receiptCode": "ELEDA-VOTE-MTUA-W328"
+    },
+    {
+      "id": "eligibility-user-voter-19",
+      "voterId": "user-voter-19",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-20",
+      "voterId": "user-voter-20",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-21",
+      "voterId": "user-voter-21",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-22",
+      "voterId": "user-voter-22",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-23",
+      "voterId": "user-voter-23",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-24",
+      "voterId": "user-voter-24",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-25",
+      "voterId": "user-voter-25",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-26",
+      "voterId": "user-voter-26",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-27",
+      "voterId": "user-voter-27",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-28",
+      "voterId": "user-voter-28",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    },
+    {
+      "id": "eligibility-user-voter-29",
+      "voterId": "user-voter-29",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "isEligible": true,
+      "tokenIssued": false,
+      "hasVoted": false,
+      "votedAt": null,
+      "receiptCode": null
+    }
+  ],
+  "deviceVotingStatus": [
+    {
+      "deviceHash": "eda0282249713cf7bb6247b971fc870f91db9c3c03d4a1945b4d77fcaae2bc4e",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "positionsVoted": [
+        "pos-01-gov",
+        "pos-02-dep-gov"
+      ],
+      "tokenIssued": true,
+      "firstSeenAt": "2026-11-07T12:25:13.175Z",
+      "lastActivityAt": "2026-11-07T12:25:13.211Z",
+      "spentNullifiers": []
+    }
+  ],
+  "anonymousBallots": [
+    {
+      "id": "ballot-0001",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_987654321",
+      "castAt": "2026-11-07T10:06:35.278Z",
+      "receiptCode": "ELEDA-VOTE-P4OS-EK1T",
+      "auditHash": "audit_chain_block_1_hash"
+    },
+    {
+      "id": "ballot-0002",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_1975308642",
+      "castAt": "2026-11-07T08:24:50.234Z",
+      "receiptCode": "ELEDA-VOTE-FQ5V-GD7S",
+      "auditHash": "audit_chain_block_2_hash"
+    },
+    {
+      "id": "ballot-0003",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_2962962963",
+      "castAt": "2026-11-07T08:57:32.558Z",
+      "receiptCode": "ELEDA-VOTE-RXG2-5BVI",
+      "auditHash": "audit_chain_block_3_hash"
+    },
+    {
+      "id": "ballot-0004",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_3950617284",
+      "castAt": "2026-11-07T11:44:59.879Z",
+      "receiptCode": "ELEDA-VOTE-TDDJ-15VD",
+      "auditHash": "audit_chain_block_4_hash"
+    },
+    {
+      "id": "ballot-0005",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_4938271605",
+      "castAt": "2026-11-07T11:52:33.893Z",
+      "receiptCode": "ELEDA-VOTE-38JM-A7KX",
+      "auditHash": "audit_chain_block_5_hash"
+    },
+    {
+      "id": "ballot-0006",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_5925925926",
+      "castAt": "2026-11-07T10:50:44.460Z",
+      "receiptCode": "ELEDA-VOTE-U5GO-TUBH",
+      "auditHash": "audit_chain_block_6_hash"
+    },
+    {
+      "id": "ballot-0007",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_6913580247",
+      "castAt": "2026-11-07T07:43:42.570Z",
+      "receiptCode": "ELEDA-VOTE-OAM5-8FS9",
+      "auditHash": "audit_chain_block_7_hash"
+    },
+    {
+      "id": "ballot-0008",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_7901234568",
+      "castAt": "2026-11-07T08:33:04.832Z",
+      "receiptCode": "ELEDA-VOTE-E9CN-I89A",
+      "auditHash": "audit_chain_block_8_hash"
+    },
+    {
+      "id": "ballot-0009",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_8888888889",
+      "castAt": "2026-11-07T09:10:44.117Z",
+      "receiptCode": "ELEDA-VOTE-VH6M-OH3F",
+      "auditHash": "audit_chain_block_9_hash"
+    },
+    {
+      "id": "ballot-0010",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_9876543210",
+      "castAt": "2026-11-07T10:30:03.127Z",
+      "receiptCode": "ELEDA-VOTE-JNZJ-95LA",
+      "auditHash": "audit_chain_block_10_hash"
+    },
+    {
+      "id": "ballot-0011",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_10864197531",
+      "castAt": "2026-11-07T09:05:55.923Z",
+      "receiptCode": "ELEDA-VOTE-DZI6-PLOP",
+      "auditHash": "audit_chain_block_11_hash"
+    },
+    {
+      "id": "ballot-0012",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_11851851852",
+      "castAt": "2026-11-07T08:23:05.454Z",
+      "receiptCode": "ELEDA-VOTE-YMSD-1T51",
+      "auditHash": "audit_chain_block_12_hash"
+    },
+    {
+      "id": "ballot-0013",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_12839506173",
+      "castAt": "2026-11-07T12:21:25.660Z",
+      "receiptCode": "ELEDA-VOTE-0TEX-0DG8",
+      "auditHash": "audit_chain_block_13_hash"
+    },
+    {
+      "id": "ballot-0014",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_13827160494",
+      "castAt": "2026-11-07T10:38:07.224Z",
+      "receiptCode": "ELEDA-VOTE-OWG3-9JQE",
+      "auditHash": "audit_chain_block_14_hash"
+    },
+    {
+      "id": "ballot-0015",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "nullifier_hash_seed_14814814815",
+      "castAt": "2026-11-07T09:39:46.499Z",
+      "receiptCode": "ELEDA-VOTE-MTUA-W328",
+      "auditHash": "audit_chain_block_15_hash"
+    },
+    {
+      "id": "ballot-0016",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "bdd6fd7ee975093c0ec8b9842db0a2e20439d1d03bf3eb26a71f49e73dc5289b",
+      "castAt": "2026-11-07T12:25:13.211Z",
+      "receiptCode": "ELEDA-VOTE-0C60-BC47-750F",
+      "auditHash": "genesis_-bdd6fd7e-1794054313211"
+    },
+    {
+      "id": "ballot-0017",
+      "electionId": "e1eda202-6000-4000-8000-000000000001",
+      "nullifierHash": "676824433ed9503c4b97bf1a3e051d693904b8f155bdd14528744cf6c9274afe",
+      "castAt": "2026-11-07T12:30:50.516Z",
+      "receiptCode": "ELEDA-VOTE-B93F-E87C-BD46",
+      "auditHash": "genesis_-67682443-1794054650516"
+    }
+  ],
+  "ballotSelections": [
+    {
+      "id": "sel-ballot-0001-gov",
+      "ballotId": "ballot-0001",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0001-dep",
+      "ballotId": "ballot-0001",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": null,
+      "isAbstain": true
+    },
+    {
+      "id": "sel-ballot-0002-gov",
+      "ballotId": "ballot-0002",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0002-dep",
+      "ballotId": "ballot-0002",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0003-gov",
+      "ballotId": "ballot-0003",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-03",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0003-dep",
+      "ballotId": "ballot-0003",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0004-gov",
+      "ballotId": "ballot-0004",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-04",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0004-dep",
+      "ballotId": "ballot-0004",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0005-gov",
+      "ballotId": "ballot-0005",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-05",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0005-dep",
+      "ballotId": "ballot-0005",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0006-gov",
+      "ballotId": "ballot-0006",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0006-dep",
+      "ballotId": "ballot-0006",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0007-gov",
+      "ballotId": "ballot-0007",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0007-dep",
+      "ballotId": "ballot-0007",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0008-gov",
+      "ballotId": "ballot-0008",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-03",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0008-dep",
+      "ballotId": "ballot-0008",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0009-gov",
+      "ballotId": "ballot-0009",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-04",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0009-dep",
+      "ballotId": "ballot-0009",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0010-gov",
+      "ballotId": "ballot-0010",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-05",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0010-dep",
+      "ballotId": "ballot-0010",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0011-gov",
+      "ballotId": "ballot-0011",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0011-dep",
+      "ballotId": "ballot-0011",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0012-gov",
+      "ballotId": "ballot-0012",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0012-dep",
+      "ballotId": "ballot-0012",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": null,
+      "isAbstain": true
+    },
+    {
+      "id": "sel-ballot-0013-gov",
+      "ballotId": "ballot-0013",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-03",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0013-dep",
+      "ballotId": "ballot-0013",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0014-gov",
+      "ballotId": "ballot-0014",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-04",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0014-dep",
+      "ballotId": "ballot-0014",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0015-gov",
+      "ballotId": "ballot-0015",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-05",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0015-dep",
+      "ballotId": "ballot-0015",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0016-pos-01-gov",
+      "ballotId": "ballot-0016",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0016-pos-02-dep-gov",
+      "ballotId": "ballot-0016",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-02",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0017-pos-01-gov",
+      "ballotId": "ballot-0017",
+      "positionId": "pos-01-gov",
+      "candidateId": "cand-gov-01",
+      "isAbstain": false
+    },
+    {
+      "id": "sel-ballot-0017-pos-02-dep-gov",
+      "ballotId": "ballot-0017",
+      "positionId": "pos-02-dep-gov",
+      "candidateId": "cand-dep-01",
+      "isAbstain": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1794054650517-zxea",
+      "timestamp": "2026-11-07T12:30:50.517Z",
+      "ipAddress": "127.0.0.1",
+      "action": "ANONYMOUS_BALLOT_CAST",
+      "actorType": "SYSTEM",
+      "details": {
+        "ballotId": "ballot-0017",
+        "receiptCode": "ELEDA-VOTE-B93F-E87C-BD46",
+        "auditHash": "genesis_-67682443-1794054650516"
+      },
+      "severity": "INFO"
+    },
+    {
+      "id": "log-1794054313211-4iso",
+      "timestamp": "2026-11-07T12:25:13.211Z",
+      "ipAddress": "127.0.0.1",
+      "action": "ANONYMOUS_BALLOT_CAST",
+      "actorType": "SYSTEM",
+      "details": {
+        "ballotId": "ballot-0016",
+        "receiptCode": "ELEDA-VOTE-0C60-BC47-750F",
+        "auditHash": "genesis_-bdd6fd7e-1794054313211"
+      },
+      "severity": "INFO"
+    },
+    {
+      "id": "log-1794054313175-zzlt",
+      "timestamp": "2026-11-07T12:25:13.175Z",
+      "ipAddress": "127.0.0.1",
+      "action": "DEVICE_BALLOT_TOKEN_ISSUED",
+      "actorType": "SYSTEM",
+      "details": {
+        "electionId": "e1eda202-6000-4000-8000-000000000001",
+        "deviceHashPrefix": "eda02822..."
+      },
+      "severity": "INFO"
+    },
+    {
+      "id": "log-001",
+      "timestamp": "2026-11-05T12:24:06.770Z",
+      "action": "ELECTION_INITIALIZED",
+      "actorType": "SYSTEM",
+      "actorName": "System Genesis",
+      "details": {
+        "title": "ELEDA 2026 DIGITAL VOTING ARENA",
+        "positionsCount": 2
+      },
+      "ipAddress": "127.0.0.1",
+      "severity": "INFO"
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2026-11-06T00:24:06.770Z",
+      "action": "CANDIDATES_APPROVED",
+      "actorType": "ADMIN",
+      "actorId": "user-admin-01",
+      "actorName": "Chief Electoral Commissioner (Admin)",
+      "details": {
+        "approvedCandidatesCount": 7
+      },
+      "ipAddress": "197.210.65.12",
+      "severity": "INFO"
+    },
+    {
+      "id": "log-003",
+      "timestamp": "2026-11-07T06:24:06.770Z",
+      "action": "VOTING_OPENED_SCHEDULED",
+      "actorType": "ADMIN",
+      "actorId": "user-admin-01",
+      "actorName": "Chief Electoral Commissioner (Admin)",
+      "details": {
+        "status": "VOTING_LIVE",
+        "openTime": "2026-11-07T06:24:06.767Z"
+      },
+      "ipAddress": "197.210.65.12",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "log-004",
+      "timestamp": "2026-11-07T09:24:06.771Z",
+      "action": "BALLOT_BATCH_CAST",
+      "actorType": "SYSTEM",
+      "actorName": "Cryptographic Engine",
+      "details": {
+        "ballotsCastSoFar": 15
+      },
+      "ipAddress": "127.0.0.1",
+      "severity": "INFO"
+    }
+  ],
+  "lastAuditHash": "genesis_-67682443-1794054650516"
+}
